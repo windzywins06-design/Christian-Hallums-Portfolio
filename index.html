@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christian Hallums Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Segoe UI", sans-serif;
+            background: linear-gradient(135deg, #021526, #03346E);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero {
+            text-align: center;
+            max-width: 800px;
+            padding: 40px;
+        }
+
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 15px;
+            color: #6ec6ff;
+            text-shadow: 0 0 15px rgba(110,198,255,0.5);
+        }
+
+        .subtitle {
+            font-size: 1.4rem;
+            color: #d6e4f0;
+            margin-bottom: 30px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 40px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            background: #007BFF;
+            color: white;
+            text-decoration: none;
+            padding: 14px 28px;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            background: #0099ff;
+            box-shadow: 0 0 20px rgba(0,153,255,0.5);
+        }
+
+        .outline {
+            background: transparent;
+            border: 2px solid #007BFF;
+        }
+
+        .outline:hover {
+            background: #007BFF;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="hero">
+        <h1>Christian Hallums</h1>
+
+        <div class="subtitle">
+            Cybersecurity Student • D1 Sprinter • Future IT Professional
+        </div>
+
+        <p>
+            Enthusiastic D1 student athlete seeking an information technology internship to gain 
+            industry experience and contribute to team success. Strong skills 
+            in time management, Python, Java, and Networking.  
+        </p>
+
+        <div class="buttons">
+            <a href="projects.html" class="btn">Projects</a>
+            <a href="certifications.html" class="btn">Certifications</a>
+            <a href="experience.html" class="btn">Experience</a>
+        </div>
+    </section>
+</body>
+</html>
